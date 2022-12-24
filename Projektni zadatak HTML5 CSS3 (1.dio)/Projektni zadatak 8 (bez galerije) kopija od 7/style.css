@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    font-size: 16px;
+	font-family: 'Roboto Mono', monospace;
+	scroll-behavior: smooth;
+}
+
+.banner {
+    position: relative;
+    background-image: url(img/banner.png);
+	height: 62vh;
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: rgb(80, 80, 80);
+}
+li {
+	float: left;
+}
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 12px 16px;
+	text-decoration: none;
+}
+li a:hover {
+	color: #AFE7F2;
+	
+}
+
+h1 {
+	font-size: 26px;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+}
+
+#odj_1 p{
+	padding-top: 2vh;
+}
+
+.pocetna_main h1, section {
+	padding-top: 2.5vh;
+}
+
+.pocetna_main a {
+	padding-top: 8vh;
+}
+
+.pocetna_main a:active {
+  	transform: translateY(4px);
+}
+
+#odj_2 p{
+	padding-top: 4.5vh;
+	margin-bottom: 2vh;
+	text-align: center;
+}
+
+#odj_2 a{
+	color: #6cd3e7;
+	text-decoration: none;
+}
+
+footer {
+	background-color: rgb(80, 80, 80);
+	padding: 0.25em;
+	clear: both;
+}
+
+footer p {
+	color: white;
+	text-align: center;
+	padding-bottom: 1vh;
+}
+
+footer img {
+	width: 25px;
+	padding-left: 1vw;
+	padding-top: 5px;
+}
+
+.primjeri_web_stranica_main {
+	display: block;
+	text-align: center;
+}
+
+.primjeri_web_stranica_main h1{
+	padding-top: 5vh;
+	padding-bottom: 2vh;
+	
+}
+
+.primjeri_web_stranica_main section {
+	padding-bottom: 5vh;
+}
+
+.primjeri_web_stranica_main img{
+	
+	width: 25vw;
+	border: 1px solid rgb(80, 80, 80);
+}
+
+.primjeri_web_stranica_main a{
+	color: #6cd3e7;
+	text-decoration: none;
+}
+
+.primjeri_web_stranica_main a:hover {
+	text-decoration: underline;
+}
+
+#galerija_web_stranica img {
+	padding: 0.25em;
+	margin: 1em;
+	width: 20vw;
+	height: 20vh;
+	border: 1px solid rgb(80, 80, 80);
+}
+
+#galerija_web_stranica figcaption {
+	font-size: 90%;
+	text-align: center;
+}
+
+figure {
+	margin: 0 1em 0 1em;
+	float: left;
+	width: 30%;
+}
+
+#naslovna_slika {
+	margin: 0;
+	float: none;
+}
+
+#naslovna_slika figcaption {
+	text-align: left;
+}
+
+#naslovna_slika img {
+	width: 30vw;
+}
+
+#sadrzaj_web_stranica h1{
+	text-align: center;
+	text-decoration: underline;
+}
+
+#sadrzaj_web_stranica p {
+	padding-top: 5.9vh;
+}
+
+#sadrzaj_web_stranica a {
+	color: #6cd3e7;
+	text-decoration: none;
+
+}
+
+#sadrzaj_web_stranica a:hover {
+	color: #6cd3e7;
+	text-decoration: underline;
+}
+
+iframe {
+	padding-top: 1vh;
+	border-radius: 6px;
+}
+
+#forma {
+	display: flex;
+	border-radius: 6px;
+	width: 10vw;
+	margin-top: 2.9vh;
+	margin-bottom: 2.5vh;
+	flex-direction: column;
+	align-items: center;
+}
+
+#forma button {
+	cursor: pointer;
+}
+
+input {
+	width: 20vw;
+}
+
+select {
+	width: 20.4vw;
+}
+
+textarea {
+	min-width: 20.1vw;
+	max-width: 20.1vw;
+	min-height: 4vh;
+	max-height: 4vh;
+}
